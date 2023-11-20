@@ -7,21 +7,21 @@
       column
       is-three-quarter"
     >
-      <Formulario></Formulario>
+      <FormularioCronometro></FormularioCronometro>
     </div>
   </main>
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
 import BarraLateral from "./components/BarraLateral.vue";
-import Formulario from "./components/Formulario.vue";
+import FormularioCronometro from "./components/FormularioCronometro.vue";
 
 export default defineComponent({
   name: "App",
   components: {
     BarraLateral,
-    Formulario
-},
+    FormularioCronometro
+  },
 });
 </script>
 

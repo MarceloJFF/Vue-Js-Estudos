@@ -30,9 +30,10 @@
 </template>
 
 <script lang="ts">
+/* data são os dados que o componente armazena e computed é uma propriedade que fica verificando quando um dado muda executa uma funcao*/
 import { defineComponent } from 'vue';
 export default defineComponent({
-  name: 'Formulario',
+  name: 'FormularioCronometro',
   data(){
     return{
       tempoEmSegundos:0,
