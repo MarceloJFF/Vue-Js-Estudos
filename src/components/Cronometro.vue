@@ -3,7 +3,7 @@
     <strong>{{ tempoDecorrido }}</strong>
   </section>
 </template>
-<script>
+<script lang="ts">
 import {defineComponent} from 'vue'
 /*props propriedades recebidas do pai*/
 export default defineComponent({

@@ -6,7 +6,7 @@
       </div>
       <div class="column">
         <div class="is-flex is-align-items-center is-justify-content-space-between">
-        <Cronometro></Cronometro>
+        <Cronometro :tempoEmSegundos="tempoEmSegundos" ></Cronometro>
         <button class="button" @click="iniciar">
           <span class="icon">
             <i class="fas fa-play"></i>
